@@ -7,6 +7,12 @@ const app = new Vue({
             email: '',
             re_email: '',
             content: '',
+            toggle: true
         },
+        regions: [
+            '東北',
+            '関東',
+            '関西'
+        ]
     }
 })
